@@ -1,0 +1,303 @@
+@media (max-width: 1625px){
+    .info-jogo{
+        padding: 800px 0px 0px 150px;
+    }
+}
+
+@media (max-width: 1564px) {
+    .home .compra{
+        margin: 350px 0px 0px 1050px;
+    }
+}
+
+@media (max-width: 1550px){
+    .cabecalho .info{
+        font-size: 12px;
+        padding: 15px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 1530px){
+    #cabecalho{display: none}
+}
+
+@media (max-width: 1425px) {
+    .info-jogo{
+        padding: 800px 0px 0px 90px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .info-jogo{
+        padding: 800px 0px 0px 60px;
+    }
+
+    .home .compra{
+        margin: 350px 0px 0px 950px;
+    }
+}
+
+@media (max-width: 1333px) {
+    .info-jogo{
+        padding: 800px 0px 0px 30px;
+    }
+}
+
+@media (max-width: 1257px) {
+    .info-jogo{
+        width: 100%;
+    }
+
+    .logo-zomboid{
+        width: 100px;
+        height: 80px;
+        margin: 0px 25px 0px 0px;
+    }
+
+    .letra-menu{
+        font-size: 15px;
+        gap: 15px;
+        margin: 0px 0px 0px 60px;
+    }
+
+    .logo-indie{
+        width: 110px;
+        height: 100px;
+    }
+
+    .home{
+        min-height: calc(335vh - 100px);
+    }
+
+    .home .titulo{
+        margin: 0px 0px 0px 50px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .home .compra{
+        margin: 350px 0px 0px 800px;
+    }
+
+    .info-jogo{
+        flex-direction: column;
+    }
+
+    .info-jogo .survive .titulo-survive{
+        font-size: 50px;
+        justify-content: center;
+    }
+
+    .info-jogo .survive .imagem-survive{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .info-jogo .survive .imagem-survive .img-sur{
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        height: 500px;
+    }
+
+    .info-jogo .survive .info-survive{
+        justify-content: center;
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+        text-align: center;
+    }
+
+    .info-jogo .construcao .titulo-construcao{
+        font-size: 50px;
+        justify-content: center;
+    }
+
+    .info-jogo .construcao .imagem-construcao{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .info-jogo .construcao .imagem-construcao .img-cons{
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        height: 500px;
+    }
+
+    .info-jogo .construcao .info-construcao{
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .info-jogo .defesa .titulo-defesa{
+        font-size: 50px;
+        justify-content: center;
+    }
+
+    .info-jogo .defesa .imagem-defesa{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .info-jogo .defesa .imagem-defesa .img-def{
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        height: 500px;
+    }
+
+    .info-jogo .defesa .info-defesa{
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+    }
+}
+
+@media (max-width: 1164px) {
+    .home .compra{
+        margin: 350px 0px 0px 700px;
+    }
+}
+
+@media (max-width: 1015px) {
+    .logo-zomboid{
+        width: 80px;
+        height: 50px;
+        margin: 0px 0px 0px 15px;
+    }
+
+    .letra-menu{
+        margin: 0px 0px 0px 15px;
+        font-size: 13px;
+    }
+
+    .logo-indie{
+        width: 80px;
+        height: 80px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .home .titulo{
+        font-size: 20px;
+        width: 300px;
+        margin: 0px 0px 0px 80px;
+    }
+
+    .home .compra{
+        margin: 350px 0px 0px 600px;
+    }
+}
+
+@media (max-width: 915px) {
+    #home .titulo{display: none;}
+
+    .home .compra {
+        margin: 200px 0px 0px 0px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 730px) {
+    .logo-zomboid{
+        width: 80px;
+        height: 60px;
+    }
+
+    .letra-menu{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 629px) {
+    .logo-zomboid{
+        width: 50px;
+        height: 30px;
+    }
+
+    .letra-menu{
+        gap: 11px;
+    }
+
+    .logo-indie {
+        width: 50px;
+        height: 50px;
+    }
+
+    .info-jogo .survive .titulo-survive{
+        font-size: 30px;
+    }
+
+    .info-jogo .survive .imagem-survive .img-sur{
+        width: 350px;
+        height: 300px;
+    }
+
+    .info-jogo .construcao .titulo-construcao {
+        font-size: 30px;
+    }
+
+    .info-jogo .construcao .imagem-construcao .img-cons{
+        width: 350px;
+        height: 300px;
+    }
+
+    .info-jogo .defesa .titulo-defesa{
+        font-size: 30px;
+    }
+
+    .info-jogo .defesa .imagem-defesa .img-def{
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 545px){
+    .letra-menu{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 478px){
+    .letra-menu{
+        gap: 6px;
+    }
+}
+
+@media (max-width: 447px){
+    .letra-menu{
+        font-size: 6px;
+    }
+}
+
+@media (max-width: 360px){
+    .letra-menu{
+        gap: 4px;
+    }
+}
+
+@media (max-width: 280px){
+    .logo-zomboid{
+        width: 30px;
+        height: 20px;
+    }
+
+    .letra-menu{
+        gap: 2px;
+        font-size: 4px;
+    }
+
+    .logo-indie{
+        width: 30px;
+        height: 30px;
+    }
+}

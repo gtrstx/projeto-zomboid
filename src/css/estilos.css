@@ -1,0 +1,439 @@
+body {
+    background-color: #0D191F;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(17, 17, 17);
+}
+.info {
+    color: #909599;
+    padding: 10px;
+    background-color: rgb(17, 17, 17);
+    height: 60px;
+    width: 100%;
+    font-family: 'BebasNeue';
+    font-size: 12px;
+    display: flex;
+}
+
+.build {
+    display: flex;
+    margin: 8px 0px 0px 0px;
+    gap: 15px;
+    padding: 0px 0px 0px 30px;
+}
+
+hr{
+    height: 14px;
+}
+
+.beta {
+    display: flex;
+    margin: 8px 0px 0px 0px;
+    gap: 15px;
+    padding: 0px 0px 0px 10px;
+}
+
+.history {
+    display: flex;
+    margin: 8px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+    color: #fff;
+    gap: 15px;
+}
+
+.wiki {
+    display: flex;
+    margin: 8px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+    color: #fff;
+    gap: 15px;
+}
+
+.follow {
+    display: flex;
+    margin: 10px 5px 40px 850px;
+    gap: 30px;
+    padding: 0px 0px 200px 20px;
+    color: #fff;
+}
+
+.reddit {
+    display: flex;
+    width: 35px;
+    height: 35px;
+}
+
+.steam {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 7px 0px 0px 0px;
+}
+
+.facebook {
+    display: flex;
+    width: 29px;
+    height: 26px;
+    margin: 4px 0px 0px 0px;
+}
+
+.twiter {
+    display: flex;
+    width: 28px;
+    height: 27px;
+    margin: 4px 0px 0px 0px;
+}
+
+.youtube {
+    display: flex;
+    width: 23px;
+    height: 22px;
+    margin: 7px 0px 0px 0px;
+}
+
+.logo-zomboid {
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin: 10px 100px 0px 40px;
+}
+
+.home {
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px)
+}
+
+.home ::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+}
+
+.home .imagem-de-fundo {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.home .titulo {
+    display: flex;
+    z-index: 1;
+    min-height: calc(100vh - 80px);
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0px 0px 350px;
+    color: #fff;
+    font-family: 'BebasNeue';
+    font-size: 30px;
+    width: 850px;
+}
+
+.home .compra {
+    display: flex;
+    position: absolute;
+    margin: 350px 0px 0px 1250px;
+    height: 350px;
+    width: 350px;
+    flex-direction: column;
+}
+
+.home .compra .online {
+    display: flex;
+    height: 100px;
+    width: 300px;
+    background-color: #2F3B43;
+    border-radius: 5px;
+    margin: 0px 0px 15px 0px;
+}
+
+.home .compra .online .info-forum {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+    margin: 0px 0px 20px 35px;
+    width: 200px;
+    height: 100px;
+    font-family: 'BebasNeue';
+}
+
+.home .compra .online .guaxinim {
+    display: flex;
+    width: 50px;
+    height: 80px;
+    margin: 25px 25px 0px 0px;
+}
+
+.home .compra .compra-steam {
+    display: flex;
+    height: 100px;
+    width: 300px;
+    background-color: #CD003B;
+    border-radius: 5px;
+    margin: 0px 0px 15px 0px;
+}
+
+.home .compra .compra-steam .imagem-steam {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin: 20px 10px 0px 20px;
+}
+
+.home .compra .compra-steam .info-compra-steam {
+    display: flex;
+    color: #fff;
+    font-family: 'BebasNeue';
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 50px;
+}
+
+.home .compra .compra-steam .preco {
+    display: flex;
+    padding: 50px 0px 10px 0px;
+    color: #fff;
+    width: 50px;
+    height: 100px;
+    align-items: end;
+    width: 50px;
+}
+
+.home .compra .compra-steam .plataformas {
+    display: flex;
+    width: 90px;
+    height: 50px;
+    padding: 40px 0px 0px 0px;
+}
+
+.home .compra .compra-steam .plataformas .img-plataformas {
+    display: flex;
+    width: 90px;
+    height: 50px;
+    align-items: end;
+    margin: 0px 0px 0px 40px;
+    gap: 5px;
+}
+
+.home .compra .compra-steam .plataformas .img-plataformas .windows {
+    display: flex;
+    width: 18px;
+    height: 18px;
+}
+
+.home .compra .compra-steam .plataformas .img-plataformas .iphone {
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+.home .compra .compra-steam .plataformas .img-plataformas .steam-p {
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+.home .compra .compra-gogcom {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #471666;
+}
+
+.home .compra .compra-gogcom .imagem-gogcom {
+    display: flex;
+    width: 100px;
+    height: 60px;
+    margin: 20px 0px 20px 20px;
+}
+
+.home .compra .compra-gogcom .info-compra-gogcom {
+    display: flex;
+    color: #fff;
+    font-family: 'BebasNeue';
+    font-size: 10px;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.home .compra .compra-gogcom .preco-gogcom {
+    display: flex;
+    padding: 50px 0px 10px 0px;
+    color: #fff;
+    width: 50px;
+    height: 100px;
+    align-items: end;
+    width: 50px;
+    margin: 0px 15px 0px 0px;
+}
+
+.home .compra .compra-gogcom .plataformas-gogcom {
+    display: flex;
+    width: 90px;
+    height: 50px;
+    padding: 40px 0px 0px 0px;
+}
+
+.home .compra .compra-gogcom .plataformas-gogcom .img-plataformas-gogcom {
+    display: flex;
+    width: 90px;
+    height: 50px;
+    align-items: end;
+    margin: 0px 0px 0px 18px;
+    gap: 5px;
+}
+
+.home .compra .compra-gogcom .plataformas-gogcom .windows-gogcom {
+    display: flex;
+    width: 18px;
+    height: 18px;
+}
+
+.home .compra .compra-gogcom .plataformas-gogcom .iphone-gogcom {
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+.home .compra .compra-gogcom .plataformas-gogcom .steam-gogcom {
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+.menu {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%);
+    
+}
+
+.letra-menu {
+    font-family: 'BebasNeue';
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    gap: 30px;
+    margin: 5px 0px 0px 20px;
+    justify-content: center;
+}
+
+.logo-indie {
+    width: 140px;
+    height: 130px;
+    margin: 0px 10px 0px 100px;
+}
+
+.info-jogo {
+    display: flex;
+    width: 1260px;
+    height: 350px;
+    position: absolute;
+    padding: 800px 0px 0px 350px;
+    gap: 30px;
+    margin: 0px;
+}
+
+.info-jogo .survive {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-jogo .titulo-survive {
+    display: flex;
+    position: relative;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'BebasNeue';
+    align-items: center;
+    margin: 0px 0px 30px 0px;
+}
+
+.info-jogo .imagem-survive {
+    display: flex;
+    width: 400px;
+    height: 600px;
+    flex-direction: column;
+}
+
+.info-jogo .info-survive {
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'BebasNeue';
+    position: relative;
+    width: 300px;
+    margin: 20px 0px 0px 0px;
+}
+
+.info-jogo .construcao {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-jogo .titulo-construcao {
+    display: flex;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'BebasNeue';
+    position: relative;
+    align-items: center;
+    margin: 0px 0px 30px 0px;
+}
+
+.info-jogo .imagem-construcao {
+    display: flex;
+    width: 400px;
+    height: 600px;
+    flex-direction: column;
+}
+
+.info-jogo .construcao .info-construcao {
+    display: flex;
+    font-size: 20px;
+    font-family: 'BebasNeue';
+    color: #fff;
+    margin: 20px 0px 0px 0px;
+}
+
+.info-jogo .defesa {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-jogo .defesa .titulo-defesa {
+    position: relative;
+    display: flex;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'BebasNeue';
+    margin: 0px 0px 30px 0px;
+}
+
+.info-jogo .defesa .imagem-defesa {
+    display: flex;
+    width: 400px;
+    height: 600px;
+    flex-direction: column;
+}
+
+.info-jogo .defesa .info-defesa {
+    display: flex;
+    font-size: 20px;
+    font-family: 'BebasNeue';
+    color: #fff;
+    margin: 28px 0px 0px 0px;
+}
